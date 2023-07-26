@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  libreoffice:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data
